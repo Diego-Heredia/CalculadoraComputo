@@ -6,18 +6,18 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="300.0" prefWidth="260.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calc.calculadora.MiddlewareController">
-   <Label layoutX="60.0" layoutY="10.0" prefHeight="17.0" prefWidth="139.0" text="Middleware" textAlignment="CENTER">
+<AnchorPane prefHeight="300.0" prefWidth="260.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calc.calculadora.MiddlewareController" style="-fx-background-color: #2D2D2D;">
+   <Label layoutX="60.0" layoutY="10.0" prefHeight="17.0" prefWidth="139.0" text="Middleware" textAlignment="CENTER" textFill="WHITE">
       <font>
          <Font name="Century Gothic" size="24.0" />
       </font>
    </Label>
-   <TextArea fx:id="calcLog" editable="false" layoutX="19.0" layoutY="51.0" prefHeight="187.0" prefWidth="220.0" wrapText="true">
+   <TextArea fx:id="calcLog" editable="false" layoutX="19.0" layoutY="51.0" prefHeight="187.0" prefWidth="220.0" wrapText="true" style="-fx-background-color: #000000; -fx-text-fill: BLACK; -fx-border-color: #555555; -fx-border-radius: 10; -fx-background-radius: 10;">
       <font>
          <Font name="Century Gothic" size="11.0" />
       </font>
    </TextArea>
-   <Button layoutX="87.0" layoutY="254.0" mnemonicParsing="false" onAction="#clearLog" text="Clear Log">
+   <Button layoutX="87.0" layoutY="254.0" mnemonicParsing="false" onAction="#clearLog" text="Clear Log" style="-fx-background-color: #555555; -fx-text-fill: WHITE;">
       <font>
          <Font name="Century Gothic" size="14.0" />
       </font>
